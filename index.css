@@ -1,0 +1,496 @@
+@import url(s:\Front_end\freeCodeCamp_Template\index.css);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  font-family: sans-serif, monospace;
+}
+
+body {
+  background: #1b1b32;
+  overflow-x: hidden;
+}
+
+header {
+  background: #0a0a23;
+  height: 38px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 111;
+  margin-bottom: 100px;
+}
+
+header .d1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 30px 0 25px;
+}
+
+.d1 input {
+  width: 31%;
+  font-size: 18px;
+  padding: 2px 10px;
+  background: #3b3b4f;
+  margin: 5px 0 0 0;
+  border: none;
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: #bebec5;
+}
+
+:-ms-input-placeholder {
+  color: #bebec5;
+}
+
+::-ms-input-placeholder {
+  color: #bebec5;
+}
+
+::placeholder {
+  color: #bebec5;
+}
+
+.d1 p {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 30px;
+  width: 250px;
+  text-align: center;
+  margin: auto;
+}
+
+.d1 .menu {
+  width: 150px;
+  text-align: end;
+}
+
+.menu button {
+  font-size: 18px;
+  height: 31px;
+  background: transparent;
+  border: 1px solid #fff;
+  margin: 0 4px;
+  padding: 0 8px;
+}
+
+.main {
+  padding-top: 90px;
+  width: 730px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.main h1 {
+  font-size: 45px;
+  line-height: 75px;
+  font-weight: 600;
+}
+
+.main p {
+  font-size: 19px;
+  letter-spacing: 1px;
+  line-height: 1.9rem !important;
+  margin-right: 40px;
+}
+
+.main .company {
+  font-size: 28px;
+  margin: 25px 0 10px 0;
+  text-align: center;
+}
+
+.start {
+  background: -webkit-gradient(linear, left top, left bottom, from(#feca4b), to(#ffad34));
+  background: linear-gradient(#feca4b, #ffad34);
+  width: 500px;
+  padding: 5px;
+  font-size: 32px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border: 3px solid #feac32;
+  color: #0a0a23;
+  margin: 25px 0;
+}
+
+.main .image p {
+  text-align: center;
+}
+
+.company2 {
+  width: 100vw;
+  text-align: center;
+  background: #3b3b4f;
+  margin: 25px 0;
+  padding: 20px 0;
+  position: relative;
+}
+
+.company2 img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  height: 150px;
+}
+
+.alumani {
+  position: relative;
+  width: 100vw;
+  margin: 15px 0;
+}
+
+.alumani h1 {
+  text-align: center;
+  font-size: 39px;
+  margin-bottom: 40px;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1120px;
+  height: 350px;
+  margin: 10px auto 50px;
+  letter-spacing: 0.7px;
+  word-spacing: 2px;
+  background: #0a0a23;
+  color: #d0d0d5;
+}
+
+.box h3 span {
+  font-weight: 700;
+  font-size: 21px;
+  color: #d0d0d5;
+}
+
+.box h3 {
+  font-weight: 500;
+  text-align: center;
+  margin: 25px 0;
+  color: #d0d0d5;
+}
+
+.box .details {
+  padding: 40px;
+}
+
+.box .details p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #d0d0d5;
+}
+
+.programmeh {
+  position: relative;
+  width: 720px;
+  margin: 60px auto;
+}
+
+.programmebox i {
+  width: 40px;
+  font-size: 40px;
+}
+
+.programmebox span {
+  width: 83%;
+}
+
+.programme {
+  width: 100%;
+}
+
+.programme h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.programme .programmebox {
+  width: 100%;
+  border: 3px solid #fff;
+  background: #3b3b4f;
+  padding: 15px;
+  margin: 8px 0;
+  font-size: 20px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 530;
+}
+
+.programme .programmebox:hover {
+  color: #0a0a23;
+  background: #fff;
+  cursor: pointer;
+}
+
+.programme .programmebox:hover span, .programme .programmebox:hover i {
+  color: #0a0a23;
+}
+
+.bottomh {
+  background: #2a2a40;
+  width: 100vw;
+  line-height: 1.8rem;
+  color: #f5f6f7;
+}
+
+.bottom {
+  width: 1140px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.bottom .footer {
+  width: 46%;
+  margin-top: 48px;
+}
+
+.bottom .guids {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.guidsh {
+  width: 50%;
+  margin: 40px 0;
+}
+
+.bottom .guids div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bottom .guids div a {
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+footer {
+  background: #2a2a40;
+  width: 1140px;
+  padding: 40px 0;
+  margin: auto;
+  border-top: 1px solid #d0d0d5;
+  text-align: center;
+}
+
+footer h3 {
+  display: none;
+  margin-bottom: 10px;
+}
+
+footer a {
+  margin: 5px;
+  text-decoration: none;
+}
+
+@media (max-width: 1144px) {
+  .box {
+    width: 950px;
+  }
+  .bottom .footer {
+    width: 100%;
+  }
+  .bottom {
+    width: 820px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer {
+    width: 820px;
+    padding: 40px 0;
+    border-top: none;
+  }
+  .guidsh {
+    width: 100%;
+  }
+  footer h3 {
+    display: block;
+  }
+}
+
+@media (max-width: 980px) {
+  .d1 input {
+    display: none;
+  }
+  .programmeh {
+    width: 600px;
+  }
+  .d1 p {
+    position: relative;
+    left: -10px;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    margin-left: 0;
+  }
+  .main .image {
+    display: none;
+  }
+  .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 350px;
+    height: 720px;
+  }
+  .box .details {
+    padding: 20px;
+  }
+  .bottom {
+    width: 90vw;
+    margin: 10px 40px 10px 10px;
+  }
+  footer {
+    width: 100vw;
+    padding: 20px 0;
+    border-top: none;
+  }
+  .guidsh {
+    width: 100%;
+  }
+}
+
+@media (max-width: 765px) {
+  .mainh {
+    width: 499px;
+  }
+  .programmeh {
+    width: 100vw;
+  }
+  .d1 p {
+    font-size: 22px;
+    margin-left: -25px;
+    top: 2px;
+  }
+  .main {
+    width: 100%;
+    left: 15px;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .main .company {
+    font-size: 24px;
+    margin: 25px 0 10px 0;
+    text-align: center;
+  }
+  .company2 img {
+    width: 100%;
+  }
+  footer {
+    width: 90vw;
+    padding: 30px 0;
+    margin: 0 10px;
+    border-top: none;
+  }
+}
+
+@media (max-width: 500px) {
+  #men {
+    display: none;
+  }
+  .mainh {
+    width: 90vw;
+  }
+  .main {
+    width: 100%;
+  }
+  .main h1 {
+    font-size: 27px;
+    line-height: 50px;
+    font-weight: 600;
+  }
+  .d1 p {
+    font-size: 22px;
+    left: -15px;
+    top: 2px;
+  }
+  .d1 button {
+    margin-right: -10px;
+    margin-top: 3px;
+  }
+  .main p {
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 1.1rem;
+    margin-right: 0px;
+  }
+  .main .company {
+    font-size: 26px;
+  }
+  .bottom .guids {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .programmebox span {
+    width: 75%;
+  }
+  .start {
+    width: 80%;
+    font-size: 22px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
